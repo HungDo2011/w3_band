@@ -1,0 +1,113 @@
+/* width =< 800px */
+
+@media only screen and (max-width: 50em) {
+    p {
+        font-size: 20px;
+    }
+
+    #header {
+        overflow: hidden;
+        height: 46px;
+    }
+    
+    #header .btnsear {
+        display: none !important;
+    }
+    
+    
+    #header .menu-btn {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav > li > a {
+        display: block;
+        padding: 8px 12px;
+    }
+
+    #nav li:first-child {
+        display: inline-block;
+        padding: 0 !important;
+    }
+
+    #nav li a:first-child {
+        padding: 4px 12px !important;
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+    
+    #nav .subnav li{
+        background-color: #333;
+        padding: 20px 42px 12px 16px;
+        text-align: center;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+    }
+    #nav .subnav li:first-child {
+        display: none;
+        padding: 20px 42px 12px 16px !important;
+    }
+
+    #slider {
+        margin-top: 46px;
+    }
+
+    #content .memberlist {
+        width: 100%;
+    }
+
+    .place-item {
+        width: 100%;
+        margin-top: 16px;
+        padding: 0;
+    }
+
+    .place-list {
+        margin: 0;
+    }
+
+    .place-btn {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .place-body {
+        text-align: center;
+    }
+
+    
+    .contact {
+        padding: 0 8px;
+    }
+
+
+    .send-btn,
+    .contact-items,
+    .contact-guets,
+    .input {
+        width: 100%;
+        position: initial;
+        padding: 20px !important;
+    }
+    .input {
+        font-size: 20px;
+    }
+    .contact-guets input:first-child {
+        margin-bottom: 15px;
+    }
+}  
